@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "A": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "GAA"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": {
+      "AttachmentId": "tacz:scope_retro_2x"
+    }
+  }
+}

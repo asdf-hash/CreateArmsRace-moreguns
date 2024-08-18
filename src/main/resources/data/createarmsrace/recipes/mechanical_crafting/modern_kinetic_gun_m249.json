@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "tag": "forge:plates/aluminum"
+    },
+    "C": {
+      "item": "createarmsrace:m249_completed_schematic"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "  SSSSSS ",
+    "SSSSSPCPS",
+    "   AA  PS",
+    "   AA    "
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": {
+      "GunCurrentAmmoCount": "0",
+      "GunFireMode": "AUTO",
+      "GunId": "tacz:m249",
+      "HasBulletInBarrel": "0b"
+    }
+  }
+}

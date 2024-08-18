@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    },
+    {
+      "item": "createarmsrace:762x39_completed_schematic"
+    }
+  ],
+  "keepHeldItem": true,
+  "results": [
+    {
+      "item": "createarmsrace:762x39_incomplete_payload"
+    }
+  ]
+}

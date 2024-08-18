@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createarmsrace:item/ammo/payload/338_payload"
+  }
+}

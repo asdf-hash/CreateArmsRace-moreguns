@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bauxite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createarmsrace:bauxite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "createarmsrace:aluminum_ingot_from_smelting_bauxite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bauxite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createarmsrace:aluminum_ingot_from_smelting_bauxite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    },
+    {
+      "item": "createarmsrace:357mag_completed_schematic"
+    }
+  ],
+  "keepHeldItem": true,
+  "results": [
+    {
+      "item": "createarmsrace:357mag_incomplete_payload"
+    }
+  ]
+}

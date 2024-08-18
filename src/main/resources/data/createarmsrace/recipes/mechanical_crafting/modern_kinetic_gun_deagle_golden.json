@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "G": {
+      "tag": "forge:plates/gold"
+    },
+    "C": {
+      "item": "createarmsrace:deagle_golden_completed_schematic"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "SGCPS",
+    "   PS"
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": {
+      "GunCurrentAmmoCount": "0",
+      "GunFireMode": "SEMI",
+      "GunId": "tacz:deagle_golden",
+      "HasBulletInBarrel": "0b"
+    }
+  }
+}

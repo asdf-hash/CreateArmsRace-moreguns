@@ -1,0 +1,69 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmsrace:50ae_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "tacz:ammo",
+      "nbt": {
+        "AmmoId": "tacz:50ae"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:50ae_incomplete_casing"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:50ae_incomplete_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:50ae_incomplete_casing"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:50ae_incomplete_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:50ae_incomplete_casing"
+        },
+        {
+          "item": "createarmsrace:50ae_payload"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:50ae_incomplete_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmsrace:50ae_incomplete_casing"
+  }
+}

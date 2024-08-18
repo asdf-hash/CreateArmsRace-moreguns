@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "create:empty_schematic"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    " S ",
+    "BPB",
+    "B B"
+  ],
+  "result": {
+    "item": "createarmsrace:research_table"
+  }
+}

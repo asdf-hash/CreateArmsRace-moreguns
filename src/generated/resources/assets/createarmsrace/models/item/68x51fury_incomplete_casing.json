@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createarmsrace:item/ammo/casing/68x51fury_casing"
+  }
+}

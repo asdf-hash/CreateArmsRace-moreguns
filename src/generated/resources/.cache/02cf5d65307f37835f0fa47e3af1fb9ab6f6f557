@@ -1,0 +1,8 @@
+// 1.20.1	2024-07-29T02:21:04.1981832	Tags for minecraft:item mod id createarmsrace
+755a819c44bdccfa592b5db91c462579dc9d3396 data/forge/tags/items/ingots/aluminum.json
+df15fc12adf8fb8f0d614a6d8c7761fc60e04248 data/forge/tags/items/ingots/lead.json
+b32669a6ba53c97e7612174a55b9157756dea5d8 data/forge/tags/items/ingots/steel.json
+752c977df7152d2f083fb2da128aac287570c954 data/forge/tags/items/nuggets/lead.json
+87c0e77e5851ca036241a494ecf21436c17682fb data/forge/tags/items/plates/aluminum.json
+f212dd052f5bc0b89bac1b9738031159c6f31fb7 data/forge/tags/items/plates/lead.json
+32d903c5b776e3290c7dde663507a61713ce5f76 data/forge/tags/items/plates/steel.json

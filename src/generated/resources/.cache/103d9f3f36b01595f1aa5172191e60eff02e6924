@@ -1,0 +1,7 @@
+// 1.20.1	2024-08-14T01:57:23.9382922	Registries
+099d3f59900b415744053adc79b3621233233b96 data/createarmsrace/forge/biome_modifier/add_bauxite_ore.json
+b0855a1089b5992c64e23a7b8b62bc71e3ca2918 data/createarmsrace/forge/biome_modifier/add_lead_ore.json
+05fa656295424024688dde5388adc69cb33ad5c7 data/createarmsrace/worldgen/configured_feature/bauxite_ore.json
+c54d76f0930e0564f009007178b5ba469ab8a7a1 data/createarmsrace/worldgen/configured_feature/lead_ore.json
+2913c877096c9a1e2e6dbfa2d9100ddf5109f8da data/createarmsrace/worldgen/placed_feature/bauxite_ore_placed.json
+331dc7c4bb8e90fc03d7a51393797608b798c9e4 data/createarmsrace/worldgen/placed_feature/lead_ore_placed.json

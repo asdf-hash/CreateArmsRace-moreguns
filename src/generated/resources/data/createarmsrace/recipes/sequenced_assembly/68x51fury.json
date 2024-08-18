@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmsrace:68x51fury_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "tacz:ammo",
+      "nbt": {
+        "AmmoId": "tacz:68x51fury"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:68x51fury_incomplete_casing"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:68x51fury_incomplete_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:68x51fury_incomplete_casing"
+        },
+        {
+          "item": "createarmsrace:68x51fury_payload"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:68x51fury_incomplete_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmsrace:68x51fury_incomplete_casing"
+  }
+}

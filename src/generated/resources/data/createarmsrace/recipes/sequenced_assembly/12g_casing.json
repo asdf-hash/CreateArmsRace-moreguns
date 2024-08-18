@@ -1,0 +1,32 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmsrace:12g_incomplete_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "count": 2,
+      "item": "createarmsrace:12g_casing"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmsrace:12g_incomplete_casing"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:12g_incomplete_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmsrace:12g_incomplete_casing"
+  }
+}

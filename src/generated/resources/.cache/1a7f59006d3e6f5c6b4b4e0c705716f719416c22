@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-24T23:07:23.7392884	Tags for minecraft:block mod id createarmsrace
+7cda5263bdb47284faee507b6709373cd917c259 data/forge/tags/blocks/ores.json
+7cda5263bdb47284faee507b6709373cd917c259 data/minecraft/tags/blocks/mineable/pickaxe.json
+7cda5263bdb47284faee507b6709373cd917c259 data/minecraft/tags/blocks/needs_iron_tool.json

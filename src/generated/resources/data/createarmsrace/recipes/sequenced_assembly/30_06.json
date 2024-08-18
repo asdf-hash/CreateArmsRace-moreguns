@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmsrace:30_06_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "tacz:ammo",
+      "nbt": {
+        "AmmoId": "tacz:30_06"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:30_06_incomplete_casing"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:30_06_incomplete_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:30_06_incomplete_casing"
+        },
+        {
+          "item": "createarmsrace:30_06_payload"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:30_06_incomplete_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmsrace:30_06_incomplete_casing"
+  }
+}

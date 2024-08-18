@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "ATA",
+    " A "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "A": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "result": {
+    "item": "tacz:ammo",
+    "nbt": {
+      "AmmoId": "tacz:rpg_rocket"
+    }
+  }
+}

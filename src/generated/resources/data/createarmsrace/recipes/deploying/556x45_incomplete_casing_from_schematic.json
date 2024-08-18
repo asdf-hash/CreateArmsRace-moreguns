@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:plates/brass"
+    },
+    {
+      "item": "createarmsrace:556x45_completed_schematic"
+    }
+  ],
+  "keepHeldItem": true,
+  "results": [
+    {
+      "item": "createarmsrace:556x45_incomplete_casing"
+    }
+  ]
+}

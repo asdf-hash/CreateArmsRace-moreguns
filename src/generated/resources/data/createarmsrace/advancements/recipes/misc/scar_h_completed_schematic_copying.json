@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_scar_h_completed_schematic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createarmsrace:scar_h_completed_schematic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "createarmsrace:scar_h_completed_schematic_copying"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_scar_h_completed_schematic",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createarmsrace:scar_h_completed_schematic_copying"
+    ]
+  },
+  "sends_telemetry_event": false
+}

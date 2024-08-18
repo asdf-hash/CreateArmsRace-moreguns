@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "schematic_copying",
+  "ingredients": [
+    {
+      "item": "createarmsrace:50ae_completed_schematic"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "createarmsrace:50ae_completed_schematic"
+  }
+}

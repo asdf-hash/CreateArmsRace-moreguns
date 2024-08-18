@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "bauxite",
+  "ingredient": {
+    "item": "createarmsrace:deepslate_bauxite_ore"
+  },
+  "result": "createarmsrace:aluminum_ingot"
+}

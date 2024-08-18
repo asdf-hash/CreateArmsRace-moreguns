@@ -1,0 +1,32 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmsrace:357mag_incomplete_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "count": 3,
+      "item": "createarmsrace:357mag_casing"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmsrace:357mag_incomplete_casing"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:357mag_incomplete_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmsrace:357mag_incomplete_casing"
+  }
+}

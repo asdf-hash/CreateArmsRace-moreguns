@@ -1,0 +1,61 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createarmsrace:357mag_incomplete_payload"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "count": 3,
+      "item": "createarmsrace:357mag_payload"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmsrace:357mag_incomplete_payload"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:357mag_incomplete_payload"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createarmsrace:357mag_incomplete_payload"
+        },
+        {
+          "tag": "forge:nuggets/lead"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:357mag_incomplete_payload"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createarmsrace:357mag_incomplete_payload"
+        }
+      ],
+      "results": [
+        {
+          "item": "createarmsrace:357mag_incomplete_payload"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createarmsrace:357mag_incomplete_payload"
+  }
+}

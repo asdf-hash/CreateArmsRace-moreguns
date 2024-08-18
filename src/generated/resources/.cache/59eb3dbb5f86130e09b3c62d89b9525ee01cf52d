@@ -1,0 +1,6 @@
+// 1.20.1	2024-07-31T15:01:35.8532729	Loot Tables
+d05593284dbde621cf1de175ae6caad908027145 data/createarmsrace/loot_tables/blocks/bauxite_ore.json
+640b7d1a701e47901647a4e115d0b7110fff81f9 data/createarmsrace/loot_tables/blocks/deepslate_bauxite_ore.json
+ab73b6b8c6a634ac9d18130515caf0f581f7f3ec data/createarmsrace/loot_tables/blocks/deepslate_lead_ore.json
+9663d2113f4e27cdbb69d919eda818855239723e data/createarmsrace/loot_tables/blocks/lead_ore.json
+80e8df8ea211af27191ab1b122d4845d6f8a28f9 data/createarmsrace/loot_tables/blocks/research_table.json
