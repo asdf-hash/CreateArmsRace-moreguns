@@ -118,5 +118,7 @@
   "item.createarmsrace.steel_sheet": "Steel Sheet",
   "item.createarmsrace.ump45_completed_schematic": "UMP45 SMG Schematic",
   "item.createarmsrace.uzi_completed_schematic": "UZI Schematic",
-  "item.createarmsrace.vector45_completed_schematic": "Vector SMG Schematic"
+  "item.createarmsrace.vector45_completed_schematic": "Vector SMG Schematic",
+
+  "itemGroup.createarmsrace_tab": "Create: Arms Race"
 }

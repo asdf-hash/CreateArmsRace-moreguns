@@ -34,7 +34,7 @@ public class ResearchTableBlock extends BaseEntityBlock {
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        return Shapes.box(0, 0, 0, 2, 0.9375, 1);
+        return Shapes.box(0, 0, 0, 1, 1, 1);
     }
 
     @Override

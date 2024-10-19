@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "lead_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createarmsrace:lead_nugget"
+    }
+  },
+  "result": {
+    "item": "createarmsrace:lead_ingot"
+  },
+  "show_notification": true
+}
+
