@@ -10,13 +10,10 @@
     },
     "P": {
       "item": "create:precision_mechanism"
-    },
-    "S": {
-      "item": "forge:plates/iron"
     }
   },
   "pattern": [
-    "SPC",
+    "APC",
     "  A"
   ],
   "result": {
