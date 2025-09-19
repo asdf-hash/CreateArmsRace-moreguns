@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "tag": "forge:plates/aluminum"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "    AA  ",
+    "SSSSPPSA",
+    "    SPSA"
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": {
+      "GunCurrentAmmoCount": "0",
+      "GunFireMode": "AUTO",
+      "GunId": "tacz:m16a1",
+      "HasBulletInBarrel": "0b"
+    }
+  }
+}

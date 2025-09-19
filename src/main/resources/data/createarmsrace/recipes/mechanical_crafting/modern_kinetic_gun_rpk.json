@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    "SSSSSSPPS",
+    "    SS  P",
+    "    SS   "
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": {
+      "GunCurrentAmmoCount": "0",
+      "GunFireMode": "AUTO",
+      "GunId": "tacz:rpk",
+      "HasBulletInBarrel": "0b"
+    }
+  }
+}

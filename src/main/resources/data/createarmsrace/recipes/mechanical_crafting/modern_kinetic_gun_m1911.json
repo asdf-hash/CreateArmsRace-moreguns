@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "IPP",
+    "  I"
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": {
+      "GunCurrentAmmoCount": "0",
+      "GunFireMode": "SEMI",
+      "GunId": "tacz:m1911",
+      "HasBulletInBarrel": "0b"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    },
+    "A": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "pattern": [
+    "GA ",
+    "ASS"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": {
+      "AttachmentId": "tacz:sight_exp3"
+    }
+  }
+}
