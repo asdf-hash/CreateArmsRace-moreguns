@@ -13,10 +13,10 @@
     },
     "S": {
       "tag": "forge:plates/steel"
-    },
+    }
   },
   "pattern": [
-    "   G  "
+    "   G  ",
     "SSSSPPAA",
     "  A PP A",
     "  A    A"
