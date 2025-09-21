@@ -15,7 +15,7 @@
   "pattern": [
     "SAPA",
     "  AP"
-  ]
+  ],
   "result": {
     "item": "tacz:modern_kinetic_gun",
     "nbt": {

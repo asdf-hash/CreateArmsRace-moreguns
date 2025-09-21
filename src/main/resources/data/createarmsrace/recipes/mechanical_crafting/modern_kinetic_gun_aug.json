@@ -5,14 +5,14 @@
     "A": {
       "tag": "forge:plates/aluminum"
     },
+    "G": {
+      "tag": "forge:glass"
+    },
     "P": {
       "item": "create:precision_mechanism"
     },
     "S": {
       "tag": "forge:plates/steel"
-    },
-    "G": {
-      "tag": "forge:glass"
     },
   },
   "pattern": [
